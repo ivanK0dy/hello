@@ -2,6 +2,8 @@
 #define MYDEBUG_H
 #include <string>
 #include <iostream>
+#include "common.h"
+#include <string_view>
 
 
 void debugOUT(auto a);

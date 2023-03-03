@@ -15,18 +15,14 @@
 // for GetNameInfo ResolveName function
 #include <netdb.h>
 // To read program config file 
-#include "rapidxml-1.13/rapidxml.hpp"
 // git clone https://github.com/brofield/simpleini.git
 #include "simpleini/SimpleIni.h"
-#include "common.h"
+//#include "common.h"
 // For Header in ProcessData
 #include <map>
 #include <unordered_map>
 // All functions in one place
 #include "functions.h"
-
-
-
 
 unsigned int PORT = 28080;
 unsigned int WAITINGQUEUE = 15;  // No of new clients in active queue
@@ -37,11 +33,6 @@ bool DEBUG = false;
 #define CRLF "\r\n"
 
 using namespace std;
-
-
-
-
-
 
 void ParseConfig() 
 {
